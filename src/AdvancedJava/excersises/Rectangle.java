@@ -1,4 +1,4 @@
-package AdvancedJava.Task4Geometry;
+package AdvancedJava.excersises;
 
 public class Rectangle extends Shape{
 

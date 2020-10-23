@@ -1,7 +1,12 @@
-package AdvancedJava.excersises;public class MovablePoint {
+package AdvancedJava.excersises;
+
+public class MovablePoint implements Movable {
 
 
-    public static void main(String[] args) {
-	
-    }
+    void moveUp();
+    void moveDown();
+    void moveLeft();
+    void moveRight();
+
+
 }
