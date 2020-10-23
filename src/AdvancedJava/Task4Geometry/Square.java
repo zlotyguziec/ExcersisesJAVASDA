@@ -1,7 +1,9 @@
-package AdvancedJava.Task4Geometry;public class Square {
+package AdvancedJava.Task4Geometry;
 
+public class Square extends Rectangle{
 
-    public static void main(String[] args) {
-	
+    public Square(double a) {
+        width = a;
+        lenght = a;
     }
 }

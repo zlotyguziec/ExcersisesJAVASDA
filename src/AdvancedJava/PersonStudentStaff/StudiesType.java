@@ -1,2 +1,7 @@
-package AdvancedJava.PersonStudentStaff;public enum StudiesType {
+package AdvancedJava.PersonStudentStaff;
+
+public enum StudiesType {
+
+    STATIONARY, ZAOCZARY
+
 }
