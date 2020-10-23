@@ -30,6 +30,6 @@ public class Point3D extends Point2D{
     }
 
     public String toString() {
-        return this.toString() + ", " + z + ')';
+        return toString() + ", " + z + ')';
     }
 }
