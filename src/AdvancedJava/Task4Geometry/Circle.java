@@ -1,13 +1,21 @@
 package AdvancedJava.Task4Geometry;
 
+import AdvancedJava.excersises.Point2D;
+
 public class Circle extends Shape{
 
-    private double r;
+    protected double r;
+    protected Point2D centerPoint;
 
     public Circle() {
         color = ColorType.UNKNOWN;
         isFilled = false;
         r = 1;
+    }
+
+    public Circle(double r, Point2D centerPoint) {
+        this.r = r;
+        this.centerPoint = centerPoint;
     }
 
     public Circle(ColorType color, boolean isFilled, double r) {
