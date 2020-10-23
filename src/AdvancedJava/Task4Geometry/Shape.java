@@ -1,11 +1,9 @@
 package AdvancedJava.Task4Geometry;
-
-public class Shape {
+ public abstract class Shape {
 
        protected ColorType color;
        protected boolean isFilled;
-
-    public Shape() {
+       public Shape() {
         color = ColorType.UNKNOWN;
         isFilled = false;
     }
@@ -36,6 +34,10 @@ public class Shape {
             return "filled";
         else return "not filled";
     }
+
+    abstract double getArea();
+
+       abstract double getPerimeter();
 
     @Override
     public String toString() {

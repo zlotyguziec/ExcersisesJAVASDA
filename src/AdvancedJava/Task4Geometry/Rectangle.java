@@ -18,6 +18,11 @@ public class Rectangle extends Shape{
         this.lenght = lenght;
     }
 
+    public Rectangle(double width, double lenght) {
+        this.width = width;
+        this.lenght = lenght;
+    }
+
     public double getWidth() {
         return width;
     }
@@ -34,10 +39,12 @@ public class Rectangle extends Shape{
         this.lenght = lenght;
     }
 
+    //@Override
     public double getArea(){
         return width*lenght;
     }
 
+    @Override
     public double getPerimeter(){
         return (lenght+width)*2;
     }
