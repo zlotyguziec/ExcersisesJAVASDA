@@ -1,8 +1,9 @@
 package AdvancedJava.Task4Geometry;
 
+import AdvancedJava.GeometricObject;
 import AdvancedJava.excersises.Point2D;
 
-public class Circle extends Shape{
+public class Circle extends Shape implements GeometricObject {
 
     protected double r;
     protected Point2D centerPoint;
@@ -13,9 +14,8 @@ public class Circle extends Shape{
         r = 1;
     }
 
-    public Circle(double r, Point2D centerPoint) {
+    public Circle(double r) {
         this.r = r;
-        this.centerPoint = centerPoint;
     }
 
     public Circle(ColorType color, boolean isFilled, double r) {

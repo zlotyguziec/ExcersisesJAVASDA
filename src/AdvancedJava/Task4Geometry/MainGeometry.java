@@ -1,5 +1,7 @@
 package AdvancedJava.Task4Geometry;
 
+import AdvancedJava.excersises.Point2D;
+
 public class MainGeometry {
 
 
@@ -11,6 +13,10 @@ public class MainGeometry {
         Rectangle rectangle = new Rectangle(4.35, 6.75);
         System.out.println(rectangle.toString());
         System.out.println(rectangle.getArea());
+
+        Circle circle = new Circle(45);
+        System.out.println(circle.getArea());
+
 
     }
 }
